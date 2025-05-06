@@ -7,11 +7,13 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const __dirname = import.meta.dirname;
 
+// "/" endpoint
 app.get("/", (req, res) => {
   res.send({ message: "Hello, World" });
 });
 
-app.get("/users", (req, res) => {
+// "/api/users" endpoint
+app.get("/api/users", (req, res) => {
   try {
     res.sendFile(path.join(__dirname, "public/users.json"));
   } catch (error) {
