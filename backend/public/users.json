@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "John Manson",
+    "age": 49
+  },
+  {
+    "id": 2,
+    "name": "Lily Parker",
+    "age": 47
+  },
+  {
+    "id": 3,
+    "name": "Aron Stark",
+    "age": 21
+  }
+]
